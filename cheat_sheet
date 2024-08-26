@@ -1,0 +1,98 @@
+Launching tmux
+Create a new session
+> tmux
+
+List existing sessions
+> tmux list-sessions
+or
+> tmux ls
+
+Attach to most recent session
+> tmux attach-session
+or
+> tmux a
+
+Attach to an existing session
+> tmux attach-session -t session-name
+or
+> tmux a -t session-name
+
+Terminate an existing session
+> tmux kill-session -t session-name
+
+Panes
+Split the window vertically
+Ctrl + B, %
+
+Split window horizontally
+Ctrl + B, "
+
+Move focus to another pane
+Ctrl + B, ⬅️⬆️⬇️➡️
+
+Pane zoom
+ctrl + B, Z
+
+Kill Pane
+ctrl + B, X
+
+Resize Pane
+ctrl + B, Ctrl + ⬅️⬆️⬇️➡️
+
+Windows
+Create new window
+Ctrl + B, C
+
+Rename Current Window
+Ctrl + B, '
+
+Close Current window
+Ctrl + B, &
+
+Move to the next window
+Ctrl + B, N
+
+Move to the Previous window
+Ctrl + B, P
+
+Copy & Paste
+Enter Copy Mode
+Ctrl + B, [
+
+Begin selecting text
+Space
+
+Cancel Text Selection
+ESC
+
+Paste Text
+Ctrl + B, ]
+
+Quit copy mode
+Q
+
+Sessions
+Open session switcher
+Ctrl + B, S
+
+Rename current session
+Ctrl + B, $
+
+Move to the previous or next session
+Ctrl + B, ( or )
+
+tmux commands
+Enter Command Mode
+Ctrl + B, :
+
+Create a new session
+new
+
+Create a new named session
+new -s session-name
+
+Display buffer contents
+show-buffer
+
+List keys
+list-keys
